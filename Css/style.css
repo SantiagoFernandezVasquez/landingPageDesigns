@@ -1,0 +1,75 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: var(--color-prymary);
+}
+  .container16 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;    
+    background: linear-gradient( #09212C, #043E49);
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 30px;
+    margin: 5px;
+  }
+  .mini-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    position: relative;
+    border-radius: 4%;
+    width: 64%;
+    height: 50;
+  }
+.texto11 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: grid;
+    text-align: left;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding: 20px;
+}
+
+.texto12 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: grid;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    padding: 20px;
+}
+ .small-container15{
+    width: 20%;
+    margin: 1%;
+    padding: 10px;
+    background-color: #63E1E1;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #303030;
+ }
+.Image32{
+    background-image: url(../Storage/Img/Pag16/AI\ image\ -\ OpenAI.svg);
+    background-position: right; 
+    width: 50%;
+    height: 50%;
+}
+.Image33{
+    margin-top: 7%;
+}
