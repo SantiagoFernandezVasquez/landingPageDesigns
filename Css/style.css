@@ -1,0 +1,67 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: var(--color-prymary);
+}
+  .container4 {
+    display: grid;
+    align-items: center;    
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 10px;
+    margin: 5px;
+  }
+.text8{
+    display: grid;
+    text-align: left;
+    font-size: 16px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 10px;
+}
+
+.text9{
+    display: grid;
+    text-align: left;
+    font-size: 14px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 10px;
+}
+
+.text10{
+    display: grid;
+    text-align: left;
+    font-size: 14px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 10px;
+}
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto 1fr ;
+}
+.small-container4 {
+    width: 120%;
+    margin: 20px auto;
+    padding: 10px; 
+    background-color: #303030;
+    border-radius: 13%;
+    text-align: center;
+    font-size: 12px;
+    font-family: "ABeeZee", sans-serif;
+    color: white;
+}
+.text-container5 {
+    grid-column: 2;
+    grid-row: 1;
+}
