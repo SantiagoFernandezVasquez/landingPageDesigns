@@ -1,0 +1,118 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: var(--color-prymary);
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%; 
+    display: grid;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .container2 {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%; 
+    display: grid;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .container3 {
+    display: grid;
+    align-items: center;    
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .container4 {
+    display: grid;
+    align-items: center;    
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .container5 {
+    display: grid;
+    align-items: center;    
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 10px;
+    margin: 5px;
+  }
+.image-container3{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+}
+.text-container{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+}
+.Image7 img, .Image8 img, .Image9 img {
+    width: 90%;
+    height: 90%;
+    border-radius: 1%;
+    margin: 5px;
+}
+.text11{
+    display: grid;
+    text-align: left;
+    font-size: 30px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 20px;
+}
+
+.text12{
+    display: grid;
+    text-align: left;
+    font-size: 14px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 20px;
+}
+
+.text13{
+    display: grid;
+    text-align: left;
+    font-size: 14px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 20px;
+}
+
+.text14{
+    display: grid;
+    text-align: left;
+    font-size: 14px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 20px;
+}
