@@ -1,0 +1,70 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: var(--color-prymary);
+}
+  .container3 {
+    display: grid;
+    align-items: center;    
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 10px;
+    margin: 5px;
+  }
+.text-container3{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imagecontainer{
+    display: grid;
+    align-items: top;
+    width: auto;
+    padding-top: 0%;
+    
+}
+.text5{
+    display: grid;
+    grid-row: 1;
+    text-align: left;
+    font-size: 20px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 10px;
+}
+
+.text6{
+    display: grid;
+    text-align: right;
+    font-size: 16px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 10px;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 2fr auto;
+    gap: 20px; 
+}
+
+.small-container3 {
+    grid-column: span 2;
+    width: 12%;
+    margin: 10px 54%;
+    padding: 10px; 
+    background-color: #303030;
+    border-radius: 13%;
+    text-align: center;
+    font-size: 12px;
+    font-family: "ABeeZee", sans-serif;
+    color: white;
+}
