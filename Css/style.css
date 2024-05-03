@@ -1,0 +1,66 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: var(--color-prymary);
+}
+  .container7 {
+    display: grid;
+    align-items: center;    
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 30px;
+    margin: 5px;
+  }
+.image-container4{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+}
+.text-container2{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.text18{
+    display: grid;
+    text-align: left;
+    font-size: 12px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 20px;
+}
+
+.text19{
+    display: grid;
+    text-align: left;
+    font-size: 12px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 20px;
+}
+
+.text20{
+    display: grid;
+    text-align: left;
+    font-size: 12px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 20px;
+}
+
+.text21{
+    display: grid;
+    text-align: left;
+    font-size: 12px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+    padding: 20px;
+}
