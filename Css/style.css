@@ -1,0 +1,59 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: var(--color-prymary);
+}  
+  .container12 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;    
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 30px;
+    margin: 5px;
+  }
+.texto {
+    display: grid;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Work Sans", sans-serif;
+    color: #303030;
+    padding: 20px;
+}
+
+.texto2 {
+    display: grid;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    color: #303030;
+    padding: 20px;
+}
+ .small-container11{
+    grid-column: 1;
+    grid-row: 2;
+    width: 17%;
+    margin: 2%;
+    padding: 10px;
+    background-color: #303030;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+ }
+.text-container11 {
+    margin: 0%;
+    text-align: left;
+    grid-column: 1;
+    grid-row: 1;
+}
