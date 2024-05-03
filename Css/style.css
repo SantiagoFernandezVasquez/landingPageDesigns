@@ -1,0 +1,70 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: var(--color-prymary);
+}
+  .container9 {
+    display: grid;
+    align-items: center;    
+    background-color: #C8CCCF;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 30px;
+    margin: 5px;
+  }
+.text24 {
+    display: grid;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Work Sans", sans-serif;
+    color: #303030;
+    padding: 20px;
+}
+
+.text25 {
+    display: grid;
+    text-align: left;
+    font-size: 17px;
+    font-family: "Work Sans", sans-serif;
+    color: #303030;
+    padding: 20px;
+}
+ .small-container8 {
+    width: 20%;
+    margin: 2%;
+    padding: 10px; 
+    background-color: #303030;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: white; 
+}
+.text-container15 {
+    margin: 0%;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+.Image18{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.Image19{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.Image20{
+    grid-column: 2;
+    grid-row: span 2;
+}
