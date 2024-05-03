@@ -1,0 +1,82 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background: var(--color-prymary);
+}
+  .container6 {
+    display: grid;
+    align-items: center;    
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 1%;
+    margin: 0 1%;   
+    padding: 30px;
+    margin: 5px;
+  }
+
+.text15{
+    display: grid;
+    text-align: left;
+    font-size: 26px;
+    font-family: "Playfair Display", sans-serif;
+    color: #000000;
+    margin: 9px;
+}
+
+.text16{
+    display: grid;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    color: #000000;
+    margin: 9px;
+}
+.grid-container4 {
+    display: grid;
+    grid-template-columns: auto 1fr ;
+}
+.small-container5 {
+    width: 120%;
+    margin: 29px 2px;
+    padding: 10px; 
+    background-color: #000000;
+    border-radius: 13%;
+    text-align: center;
+    font-size: 12px;
+    font-family: "ABeeZee", sans-serif;
+    color: white;
+}
+.small-container6 {
+    width: 30%;
+    margin: 29px 40px;
+    padding: 10px; 
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 13%;
+    text-align: center;
+    font-size: 12px;
+    font-family: "ABeeZee", sans-serif;
+    color: #000000;
+}
+.text-container4 {
+    grid-column: 1;
+}
+.Image10{
+    grid-column: 1;
+    grid-row: 1;
+}
+.Image11{
+    grid-column: 1;
+}
+
+.Image12{
+    grid-column: 2;
+    grid-row: 2;
+}
